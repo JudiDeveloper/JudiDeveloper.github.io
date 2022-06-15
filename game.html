@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Bottonmed Ants</title>
+
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="styles-game.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--HEADER-->
+    <header>
+        <!--NAVAR-->
+        <div class="nav">
+            <div class="nav__left">
+                <img src="assets/logoant.png" alt="Logo">
+                <p>Friends of Ants<p>
+            </div>
+            <div class="nav__right">
+                <a class="nav__right--home" href="index.html">Home</a>
+                <a class="nav__right--play" href="#">Game</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="start-button">
+            <div class="points"><p id="points-id">0</p></div>
+            <canvas id="canvass" height="300px" width="600px">
+            </canvas> 
+            <button onclick="draw()" id="button--start">PRESS TO START</button>
+            <br>
+            <div class="card">
+                <div class="title">Description</div>
+                
+                <div class="description">The ants are in danger. Their colony has been attacked by a species 
+                    unknown to them. Help them right now to escape from their predators to save the species.
+                    Use the arrow keys to move around and don't let them catch you.
+                    Catch the yellow dots that appear on the screen to generate points.
+                </div class="description">
+                <div>
+
+                </div>
+            </div>
+        </div>
+        
+    </main>
+
+    <footer class="footer" style="margin-top:50px;">
+        <div>
+            <p>FRIENDS OF ANTS</p>
+            <p>Cell phone number: +57 316 489 11 09</p>
+            <p>E-mail adress: judisaro@hotmail.com</p>
+        </div>
+    </footer>
+
+    <script src="game.js"></script>
+</body>
+</html>
