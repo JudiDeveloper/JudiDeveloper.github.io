@@ -46,7 +46,7 @@ function startAssets() {
     man.src = "assets/game/man.png";
 
     coin = new Image();
-    coin.src = "assets/game/coin.png";
+    coin.src = "assets/game/COIN.png";
 
 }
 
